@@ -83,7 +83,15 @@ body {
   background-position: center center;
   background-attachment: fixed;
 }
-
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 .fade {
   animation: fade 400ms ease-in-out;
 }
@@ -129,7 +137,8 @@ body {
   background-color: hsl(var(--White));
   transition: width 400ms ease-in-out;
 }
-.nav-links a:hover::after {
+.nav-links a:hover::after,
+.nav-links a:focus::after {
   width: 100%;
 }
 
@@ -163,7 +172,6 @@ body {
   border-radius: 4rem;
   font-weight: 700;
   font-size: 1.1rem;
-
   background: rgb(51, 158, 204);
   background: linear-gradient(
     90deg,
@@ -171,11 +179,27 @@ body {
     rgba(101, 226, 217, 1) 92%,
     rgba(0, 212, 255, 1) 100%
   );
-  -webkit-animation: gradient 300ms ease infinite;
-  -moz-animation: gradient 300ms ease infinite;
   animation: gradient 300ms ease infinite;
+  position: relative;
 }
 
+.cta::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  left: 0.2rem;
+  height: 50%;
+  transform: translateY(50%);
+  background-color: hsl(var(--White), 0.3);
+  /* background-color: var(--Blue); */
+  opacity: 0.3;
+  top: 0;
+  border-radius: 3rem;
+  transition: all 400ms ease-in-out;
+}
+.cta:hover::after {
+  right: 0;
+}
 .features {
   margin-block-start: 2rem;
   padding-block: 2rem;
@@ -245,12 +269,13 @@ body {
   padding: 0.8rem 0.1rem;
   width: 50%;
   gap: 1em;
-  text-shadow: 1px 2px 5px var(--Cyan);
-  transform: scale(0.99);
-  transition: text-shadow 400ms ease-in-out;
+  text-shadow: 0.1ch 0.1ch 1rem var(--Cyan);
+  transform: scaleX(0.98);
+  transition: text-shadow 400ms ease-in-out, transform 340ms ease-in-out;
 }
 .productive > div:last-child a:hover {
-  text-shadow: 2px 5px 10px var(--Cyan), 1px 1px 20px var(--Cyan);
+  text-shadow: 0 0 1rem var(--Cyan), 0.1rem 0.1rem 2rem var(--Cyan);
+  transform: scaleX(1);
 }
 .productive > div:last-child a::before {
   content: "";
@@ -290,7 +315,7 @@ body {
   position: relative;
 }
 
-.tweets > article {
+.tweets > .tweet {
   background-color: var(--DarkBlue-600);
   display: flex;
   flex-direction: column;
@@ -510,7 +535,7 @@ body {
   }
 }
 
-@-webkit-keyframes gradient {
+/* @-webkit-keyframes gradient {
   0% {
     background-position: 0% 43%;
   }
@@ -542,4 +567,4 @@ body {
   100% {
     background-position: 0% 43%;
   }
-}
+} */
