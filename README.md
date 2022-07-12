@@ -1,22 +1,56 @@
-# Frontend Mentor - Fylo dark theme landing page solution
+<div id="top"></div>
 
-This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+<br />
+<div align="center">
+  <a href="https://github.com/imadbg01/fylo">
+    <img src="./assets/images/logo.svg" alt="Logo" width="50%" >
+  </a>
 
-## Table of contents
+<h3 align="center">Frontend Mentor - Fylo dark theme landing page solution</h3>
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  <p align="center">
+    This is a solution to the   [Fylo dark theme landing page challenge on Frontend Mentor](). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+    <br />
+    <a href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd"><strong>Check The Challenge hub »</strong></a>
+    <br />
+    <br />
+    <a href="https://imadbg01.github.io/fylo/">View Demo</a>
+    ·
+    <a href="https://github.com/imadbg01/fylo/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/imadbg01/fylo/issues">Request Feature</a>
+  </p>
+</div>
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#Overview">Overview</a>
+      <ul>
+        <li><a href="#the-challenge">The challenge</a></li>
+        <li><a href="#Screenshot">Screenshot</a></li>
+        <li><a href="#Links">Links</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#my-process">My process</a>
+      <ul>
+        <li><a href="#build-with">Built with</a></li>
+        <li><a href="#what-i-learned">What I learned</a></li>
+         <li><a href="##continued-development">What I learned</a></li>
+          <li><a href="#continued-development">Continued development</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#author">Author</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
 ## Overview
 
@@ -29,20 +63,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL ](https://github.com/imadbg01/fylo)
+- Live Site URL: [ live site](https://imadbg01.github.io/fylo)
 
 ## My process
 
@@ -53,11 +81,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
